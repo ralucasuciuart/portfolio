@@ -269,6 +269,20 @@ nav {
 	 line-height: 20px;
 }
 
+#about_p_a {
+	 font-family: 'GinoraRegular', sans-serif;
+	 color: #CBB06D;
+	 text-decoration: none;
+	 transition: color .3s ease;
+}
+
+#about_p_a:hover {
+	 color: #707070;
+	 transition: color .3s ease;
+	 -webkit-transition: color .3s ease;
+	 -moz-transition: color .3s ease;
+}
+
 .contact_links {
 	display: flex;
 	flex-direction: row;
@@ -397,10 +411,10 @@ nav {
 
 #letter1_h4:hover {
 	 letter-spacing: 4px;
-         transition: all .3s ease;
-         -webkit-transition: all .3s ease;
-         -moz-transition: all .3s ease;
-} 
+     transition: all .3s ease;
+     -webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+}
 
 #letter1_p {
 	 margin: 0 auto 30px auto;
@@ -408,7 +422,7 @@ nav {
 	 font-family: 'GinoraRegular', sans-serif;
 	 letter-spacing: 1px;
  	 color: #4c4c4c;
-	 text-align: center;
+ 	 text-align: center;
 }
 
 /* BACK BUTTON
