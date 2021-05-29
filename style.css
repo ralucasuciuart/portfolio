@@ -15,7 +15,7 @@ body {
 	 padding: 0;
 	 min-height: 100%;
 	 width: 100%;
-	 background-color: #121212;
+	 background-color: #f7f7f7;
 	 overflow: scroll;
 }
 
@@ -52,7 +52,7 @@ body {
 	 position: relative;
 	 font-family: 'Cyrene';
 	 font-size: 30px;
-	 color: #4c4c4c;
+	 color: #121212;
 	 transition: color .2s ease;
 	 margin-left: 25%;
 }
@@ -96,7 +96,7 @@ nav {
 	 font-family: 'GinoraBold', sans-serif;
 	 font-size: 13px;
 	 letter-spacing: 1px;
-	 color: #f7f7f7;
+	 color: #121212;
 	 margin: 0 10px;
 	 transition: color .3s ease;
 }
@@ -139,9 +139,9 @@ nav {
 	 text-align: center;
 	 padding-bottom: 5px;
 	 margin: 0 auto;
-	 font-size: 50px;
+	 font-size: 30px;
 	 font-family: 'GinoraRegular', sans-serif;
-	 color: #CBB06D;
+	 color: #121212;
 	 letter-spacing: -1px;
 	 transition: all .3s ease;
 }
@@ -156,9 +156,8 @@ nav {
 	color: #121212;
 }
 
-
 #index_h3:hover {
-    letter-spacing: 8px;
+    letter-spacing: 1px;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -167,10 +166,10 @@ nav {
 #index_h3_span { 
 	 text-align: center;
 	 margin: 0 auto;
-	 font-size: 14px;
-	 font-family: 'GinoraLight', sans-serif;
+	 font-size: 13px;
+	 font-family: 'GinoraRegular', sans-serif;
 	 letter-spacing: .5px;
-	 color: #CBB06D;
+	 color: #121212;
 	 line-height: 20px;
 }
 
@@ -188,7 +187,7 @@ nav {
 	margin: 0 auto;
 	font-family: 'GinoraBold', sans-serif;
 	font-size: 7px;
-	color: #4c4c4c;
+	color: #7a7a7a;
 	padding-top: 100px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -240,11 +239,11 @@ nav {
 	 flex-direction: row;
 	 justify-content: space-around;
 	 align-items: flex-start;
-	 margin-top: 20px;
-	 color: #f7f7f7;
+	 margin-top: 16px;
+	 color: #121212;
 	 letter-spacing: .5px;
 	 text-decoration: none;
-	 font-family: 'GinoraLight', sans-serif;
+	 font-family: 'GinoraRegular', sans-serif;
 	 transition: color .2s ease;
 }
 
@@ -309,15 +308,15 @@ nav {
 
 #about_h3 {
 	 margin: 0 auto 35px auto;
-	 font-size: 50px;
+	 font-size: 30px;
 	 font-family: 'GinoraRegular', sans-serif;
-	 color: #CBB06D;
+	 color: #121212;
 	 letter-spacing: -1px;
 	 transition: all .3s ease;
 }
 
 #about_h3:hover{
-	 letter-spacing: 8px;
+	 letter-spacing: 1px;
      transition: all .3s ease;
      -webkit-transition: all .3s ease;
      -moz-transition: all .3s ease;
@@ -335,9 +334,9 @@ nav {
 
 #about_p {
 	 font-size: 14px;
-	 font-family: 'GinoraLight', sans-serif;
+	 font-family: 'GinoraRegukar', sans-serif;
 	 letter-spacing: .5px;
-	 color: #CBB06D;
+	 color: #121212;
 	 line-height: 20px;
 }
 
@@ -359,7 +358,7 @@ nav {
 }
 
 #about_p_a:hover {
-	 color: #707070;
+	 color: #121212;
 	 transition: color .3s ease;
 	 -webkit-transition: color .3s ease;
 	 -moz-transition: color .3s ease;
@@ -420,13 +419,13 @@ nav {
 
 #contact_svg_email {
 	 fill: transparent;
-	 stroke: #4c4c4c;
+	 stroke: #121212;
 	 stroke-width: 8;
 	 transition: stroke .2s ease;
 }
 
 #contact_svg_icon {
-	 fill: #4c4c4c;
+	 fill: #121212;
 	 transition: fill .2s ease;
 }
 
@@ -446,7 +445,7 @@ nav {
 
 #contact_svg_ig {
 	 fill: transparent;
-	 stroke: #4c4c4c;
+	 stroke: #121212;
 	 stroke-width: 8;
 	 transition: stroke .2s ease;
 }
@@ -522,7 +521,7 @@ nav {
 }
 
 #letter1_h4:hover {
-	 letter-spacing: 4px;
+	 letter-spacing: 1px;
      transition: all .3s ease;
      -webkit-transition: all .3s ease;
      -moz-transition: all .3s ease;
@@ -542,8 +541,8 @@ nav {
 	 margin: 0 auto 30px auto;
 	 font-size: 12px;
 	 font-family: 'GinoraRegular', sans-serif;
-	 letter-spacing: 1px;
- 	 color: #4c4c4c;
+	 letter-spacing: .5px;
+ 	 color: #121212;
  	 text-align: center;
 }
 
@@ -568,13 +567,13 @@ nav {
 	 font-size: 20px;
 	 text-align: center;
 	 text-decoration: none;
-	 color: #4c4c4c;
+	 color: #121212;
 	 margin: 70px auto 250px auto;
 	 transition: color .3s ease;
 }
 
 #back_button:hover {
-	color: #707070;
+	color: #CBB06D;
 	transition: color .3s ease;
 	-webkit-transition: color .3s ease;
 	-moz-transition: color .3s ease;
@@ -605,7 +604,7 @@ nav {
 	padding: 4px 12px 8px 12px;
 	border: none;
 	max-width: 65px;
-	opacity: .3;
+	opacity: .5;
 	transition: opacity .2s ease;
 }
 
@@ -624,7 +623,7 @@ nav {
 	font-size: 20px;
 	letter-spacing: 1px;
 	text-align: center;
-	color: #4c4c4c;
+	color: #7a7a7a;
 	margin: 150px auto 30px auto;
 }
 
@@ -643,7 +642,7 @@ nav {
 	 flex-direction: row;
 	 align-items: center;
 	 justify-content: center;
-	 background: #080808;
+	 background: #121212;
 	 width: 100%;
 	 height: 160px;
 	 left: 0;
