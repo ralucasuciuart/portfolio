@@ -24,10 +24,6 @@ body {
 	 src: url(fonts/Cyrene.otf);
 }
 @font-face {
-	font-family: GinoraLight;
-	src: url(fonts/Ginora-Light.otf);
-}
-@font-face {
 	font-family: GinoraRegular;
 	src: url(fonts/Ginora-Regular.otf);
 }
