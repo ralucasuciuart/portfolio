@@ -38,42 +38,52 @@ body {
 	 display: flex;
 	 flex-direction: row;
 	 align-items: center;
-	 margin-right: auto;
-	 margin-left: auto;
+	 vertical-align: middle;
+	 margin: 10px auto;
+	 justify-content: space-evenly;
+	 width: 100%;
 }
 
-#nav_logo{
-	 text-decoration: none;
-	 display: block;
-	 position: relative;
-	 font-family: 'Cyrene';
-	 font-size: 30px;
+.nav_logo{
+	 position: block;
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+}
+
+#nav_rsa {
+	 font-family: 'GinoraBold', sans-serif;
+	 font-size: 25px;
 	 color: #121212;
+	 letter-spacing: -1px;
+	 text-decoration: none;
 	 transition: color .2s ease;
-	 margin-left: 25%;
 }
 
-#nav_logo:hover {
+#nav_rsa:hover {
 	color: #CBB06D;
 	transition: color .2s ease;
 	-webkit-transition: color .2s ease;
 	-moz-transition: color .2s ease;
 }
 
-#nav_logo::selection {
+#nav_rsa::selection {
 	background: #CBB06D;
 	color: #121212;
 }
 
-#nav_logo::-moz-selection {
+#nav_rsa::-moz-selection {
 	background: #CBB06D;
 	color: #121212;
+}
+
+
+#nav_bunny {
+	max-width: 70px;
+	padding-right: 10px;
 }
 
 nav {
-	 position: static;
-	 width: 100%;
-	 height: 70px;
 	 display: flex;
 	 flex-direction: row;
 	 justify-content: center;
@@ -128,14 +138,14 @@ nav {
 	 flex-direction: column;
 	 justify-content: center;
      align-items: flex-start;
-     margin: 40px auto 20px auto;
+     margin: 100px auto 20px auto;
 }
 
 #index_h3 {
 	 text-align: center;
 	 padding-bottom: 5px;
 	 margin: 0 auto;
-	 font-size: 30px;
+	 font-size: 25px;
 	 font-family: 'GinoraRegular', sans-serif;
 	 color: #121212;
 	 letter-spacing: -1px;
@@ -166,7 +176,9 @@ nav {
 	 font-family: 'GinoraRegular', sans-serif;
 	 letter-spacing: .5px;
 	 color: #121212;
-	 line-height: 20px;
+	 line-height: 18px;
+	 max-width: 500px;
+	 padding: 0 10px;
 }
 
 #index_h3_span::selection {
@@ -184,7 +196,7 @@ nav {
 	font-family: 'GinoraBold', sans-serif;
 	font-size: 7px;
 	color: #7a7a7a;
-	padding-top: 100px;
+	padding-top: 120px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
@@ -710,15 +722,20 @@ nav {
 ========================= */
 
 @media only screen and (max-width: 768px){
-	#nav_logo {
-		margin: 10px auto 0 auto;
-	}
      .navigation {
 		 display: flex;
 		 flex-wrap: wrap;
 		 flex: 100%;
 		 width: 100%;
 		 height: auto;
+	}
+
+	.nav_logo {
+		margin: 15px auto;
+	}
+
+	#nav_bunny {
+		max-width: 50px;
 	}
 
 	#nav_links {
