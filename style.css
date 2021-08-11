@@ -22,14 +22,17 @@ body {
 @font-face {
 	 font-family: Cyrene;
 	 src: url(fonts/Cyrene.otf);
+	 font-display: swap
 }
 @font-face {
 	font-family: GinoraRegular;
 	src: url(fonts/Ginora-Regular.otf);
+	font-display: swap
 }
 @font-face {
 	font-family: GinoraBold;
 	src: url(fonts/Ginora-Bold.otf);
+	font-display: swap
 }
 
 /* NAVBAR
