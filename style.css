@@ -720,6 +720,7 @@ nav {
 
 .footer_svg_icon {
 	 fill: #4c4c4c;
+	 -webkit-fill: #4c4c4c;
 	 transition: fill .2s ease;
 }
 
