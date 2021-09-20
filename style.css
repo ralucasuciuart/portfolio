@@ -723,7 +723,7 @@ nav {
 	 transition: fill .2s ease;
 }
 
-#footer_svg_icon:hover {
+/* #footer_svg_icon:hover {
 	 fill: #CBB06D;
 	 transition: fill .2s ease;
 	 -webkit-transition: fill .2s ease;
@@ -735,7 +735,7 @@ nav {
 	 transition: stroke .2s ease;
 	 -webkit-transition: stroke .2s ease;
 	 -moz-transition: stroke .2s ease;
-}
+} */
 
 #copyright {
 	 display: flex;
