@@ -718,12 +718,12 @@ nav {
 	 transition: stroke .2s ease;
 }
 
-#footer_svg_icon {
+.footer_svg_icon {
 	 fill: #4c4c4c;
 	 transition: fill .2s ease;
 }
 
-#footer_svg_icon:hover {
+.footer_svg_icon:hover {
 	 fill: #CBB06D;
 	 transition: fill .2s ease;
 	 -webkit-transition: fill .2s ease;
