@@ -27,7 +27,7 @@ body {
 	 display: flex;
 	 flex-direction: row;
 	 align-items: center;
-	 vertical-align: middle;
+	 align-items: middle;
 	 margin: auto;
 	 padding: 10px;
 	 justify-content: space-evenly;
@@ -71,8 +71,6 @@ body {
 	background: #CBB06D;
 	color: #121212;
 }
-
-
 #nav_bunny {
 	max-width: 70px;
 	padding-right: 10px;
@@ -99,7 +97,7 @@ nav {
 	 letter-spacing: 1px;
 	 color: #121212;
 	 margin: 0 10px;
-	 transition: color .3s ease;
+	 transition: color .2s ease;
 }
 
 #nav_a:hover{
@@ -110,9 +108,9 @@ nav {
      background-size: auto 4px;
      padding-bottom: 10px;
      color: #CBB06D;
-     transition: color .3s ease;
-     -webkit-transition: color .3s ease;
-     -moz-transition: color .3s ease;
+     transition: color .2s ease;
+     -webkit-transition: color .2s ease;
+     -moz-transition: color .2s ease;
 }
 
 #nav_a::selection {
@@ -144,7 +142,7 @@ nav {
 	 font-family: 'Poppins', sans-serif;
 	 color: #121212;
 	 letter-spacing: -1px;
-	 transition: all .3s ease;
+	 transition: all .2s ease;
 }
 
 #index_h3::selection {
@@ -159,9 +157,9 @@ nav {
 
 #index_h3:hover {
     letter-spacing: 1px;
-    transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all 2s ease;
 }
 
 #index_h3_span { 
@@ -300,7 +298,7 @@ nav {
 	 flex-direction: column;
 	 justify-content: space-around;
 	 align-items: flex-start;
-	 margin: 100px auto;
+	 margin: 100px auto 40px auto;
 	 text-align: left;
 	 max-width: 500px;
 }
@@ -460,6 +458,66 @@ nav {
 	 -moz-transition: stroke .2s ease;
 }
 
+/* CONTACT FORM
+========================= */
+.form {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	width: 60vw;
+	margin: 0 auto 70px auto;
+}
+
+#form_header {
+	margin: 0 auto 35px auto;
+	font-size: 30px;
+	font-family: 'Noto Sans HK', sans-serif;
+	color: #121212;
+	letter-spacing: -1px;
+}
+
+.form_input {
+	font-family: 'Noto Sans HK', sans-serif;
+	font-size: 14px;
+	width: 25vw;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #121212;
+	background-color: transparent;
+	border-radius: 30px;
+}
+
+#form_message {
+	font-family: 'Noto Sans HK', sans-serif;
+	font-size: 14px;
+	width: 25vw;
+	max-height: 20vh;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #121212;
+	background-color: transparent;
+	border-radius: 3px;
+}
+
+#form_btn {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	margin: 10px auto;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 30px;
+	background-color: #CBB06D;
+	color: #121212;
+	cursor: pointer;
+	transition: all .2s linear;
+}
+
+#form_btn:hover {
+	color: #CBB06D;
+	background-color: #121212;
+	transition: all .2s linear;
+}
+
 /* CONTENT GALLERY
 ========================= */
 .content_gallery {
@@ -490,6 +548,7 @@ nav {
      background-repeat: repeat-x;
      background-size: auto 4px;
      padding-bottom: 10px;
+	 transition: color .2s ease;
 }
 
 #willow_link::selection {
@@ -520,14 +579,14 @@ nav {
 	 font-family: 'Noto Sans HK', sans-serif;
 	 letter-spacing: 2px;
  	 color: #CBB06D;
- 	 transition: all .3s ease;
+ 	 transition: all .2s ease;
 }
 
 #letter1_h4:hover {
 	 letter-spacing: 1px;
-     transition: all .3s ease;
-     -webkit-transition: all .3s ease;
-     -moz-transition: all .3s ease;
+     transition: all .2s ease;
+     -webkit-transition: all .2s ease;
+     -moz-transition: all .2s ease;
 }
 
 #letter1_h4::selection {
@@ -564,22 +623,20 @@ nav {
 
 #back_button {
      display: block;
-	 justify-content: center;
-	 vertical-align: middle;
 	 font-family: 'Poppins', sans-serif;
 	 font-size: 20px;
 	 text-align: center;
 	 text-decoration: none;
 	 color: #121212;
 	 margin: 70px auto 250px auto;
-	 transition: color .3s ease;
+	 transition: color .2s ease;
 }
 
 #back_button:hover {
 	color: #CBB06D;
-	transition: color .3s ease;
-	-webkit-transition: color .3s ease;
-	-moz-transition: color .3s ease;
+	transition: color .2s ease;
+	-webkit-transition: color .2s ease;
+	-moz-transition: color .2s ease;
 }
 
 #back_button::selection {
@@ -591,7 +648,6 @@ nav {
 	background: #CBB06D;
 	color: #121212;
 }
-
 
 /* GO TO TOP BUTTON
 ========================= */
@@ -621,7 +677,6 @@ nav {
 #index_footer_h4 {
 	display: block;
 	justify-content: center;
-	vertical-align: middle;
 	font-family: 'Noto Sans HK', sans-serif;
 	font-size: 20px;
 	letter-spacing: 1px;
@@ -646,10 +701,8 @@ nav {
 	 align-items: center;
 	 justify-content: center;
 	 background: #121212;
-	 width: 100%;
+	 width: 100vw;
 	 height: 160px;
-	 left: 0;
-	 bottom: 0;
 	 margin: 0 auto;
 }
 
@@ -689,10 +742,8 @@ nav {
 	 flex-direction: row;
 	 align-items: center;
 	 justify-content: center;
-	 width: 100%;
+	 width: 100vw;
 	 height: 50px;
-	 left: 0;
-	 bottom: 0;
 	 text-align: center;
 	 margin: 0 auto;
 	 background: #080808;
@@ -840,6 +891,12 @@ nav {
 
 	 .contact {
 	 	margin: 50px 40px;
+	 }
+	 .form_input {
+		width: 70vw;
+	 }
+	 #form_message {
+		 width: 70vw;
 	 }
 
 	 #content_img {
