@@ -717,26 +717,32 @@ nav {
 	 stroke-width: 8;
 	 transition: stroke .2s ease;
 }
-
+#footer_svg_email:hover {
+	stroke: #CBB06D;
+	transition: stroke .2s ease;
+	-webkit-transition: stroke .2s ease;
+	-moz-transition: stroke .2s ease;
+}
 #footer_svg_be {
 	 fill: #4c4c4c;
 	 transition: fill .2s ease;
 }
-
 #footer_svg_be:hover {
 	 fill: #CBB06D;
 	 transition: fill .2s ease;
 	 -webkit-transition: fill .2s ease;
 	 -moz-transition: fill .2s ease;
 }
-
-#footer_svg_email:hover {
-	 stroke: #CBB06D;
-	 transition: stroke .2s ease;
-	 -webkit-transition: stroke .2s ease;
-	 -moz-transition: stroke .2s ease;
+#footer_svg_git {
+	fill: #4c4c4c;
+	transition: fill .2s ease;
 }
-
+#footer_svg_git:hover {
+	fill: #CBB06D;
+	transition: fill .2s ease;
+	-webkit-transition: fill .2s ease;
+	-moz-transition: fill .2s ease;
+}
 #copyright {
 	 display: flex;
 	 flex-direction: row;
