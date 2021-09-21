@@ -723,6 +723,7 @@ nav {
 	-webkit-transition: stroke .2s ease;
 	-moz-transition: stroke .2s ease;
 }
+
 #footer_svg_be {
 	 fill: #4c4c4c;
 	 transition: fill .2s ease;
@@ -733,6 +734,7 @@ nav {
 	 -webkit-transition: fill .2s ease;
 	 -moz-transition: fill .2s ease;
 }
+
 #footer_svg_git {
 	fill: #4c4c4c;
 	transition: fill .2s ease;
