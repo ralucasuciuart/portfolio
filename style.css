@@ -61,8 +61,8 @@ body {
 	-webkit-transition: color .2s ease;
 	-moz-transition: color .2s ease;
 }
-#nav_bunny {
-	max-width: 70px;
+#nav_logo {
+	max-width: 60px;
 	padding-right: 10px;
 }
 
