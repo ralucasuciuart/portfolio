@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Yatra+One&display=swap');
 * {
 	 margin: 0;
 	 padding: 0;
@@ -47,7 +47,7 @@ body {
 }
 
 #nav_rsa {
-	 font-family: 'Poppins', sans-serif;
+	 font-family: 'Yatra One', cursive;
 	 font-size: 25px;
 	 color: #121212;
 	 letter-spacing: -1px;
@@ -82,7 +82,8 @@ nav {
 
 #nav_a {
 	 text-decoration: none;
-	 font-family: 'Poppins', sans-serif;
+	 font-family: 'Outfit', sans-serif;
+	 font-weight: 700;
 	 font-size: 13px;
 	 letter-spacing: 1px;
 	 color: #121212;
@@ -110,8 +111,8 @@ nav {
 	 flex-wrap: wrap;
 	 flex-direction: column;
 	 justify-content: center;
-      align-items: flex-start;
-      margin: 100px auto 20px auto;
+     align-items: flex-start;
+     margin: 150px auto 20px auto;
 }
 
 #index_h3 {
@@ -119,7 +120,7 @@ nav {
 	 padding-bottom: 5px;
 	 margin: 0 auto;
 	 font-size: 40px;
-	 font-family: 'Poppins', sans-serif;
+	 font-family: 'Yatra One', cursive;
 	 color: #121212;
 	 letter-spacing: -1px;
 	 transition: all .2s ease;
@@ -145,23 +146,16 @@ nav {
 #index_h3_span { 
 	 text-align: center;
 	 margin: 0 auto;
-	 font-size: 13px;
-	 font-family: 'Noto Sans HK', sans-serif;
+	 font-size: 16px;
+	 font-family: 'Outfit', sans-serif;
+	 font-weight: 400;
 	 letter-spacing: .5px;
 	 color: #121212;
 	 line-height: 18px;
 	 max-width: 500px;
-	 padding: 0 10px;
+	 padding: 0 10px 50px 10px;
 }
-#scroll_text {
-	margin: 0 auto;
-	font-family: 'Poppins', sans-serif;
-	font-size: 7px;
-	color: #7a7a7a;
-	padding-top: 120px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-}
+
 /* GALLERY
 ========================= */
 
@@ -202,7 +196,8 @@ nav {
 	 color: #121212;
 	 letter-spacing: .5px;
 	 text-decoration: none;
-	 font-family: 'Noto Sans HK', sans-serif;
+	 font-family: 'Outfit', sans-serif;
+	 font-weight: 400;
 	 transition: color .2s ease;
 }
 
@@ -256,8 +251,8 @@ nav {
 
 #about_h3 {
 	 margin: 0 auto 35px auto;
-	 font-size: 30px;
-	 font-family: 'Noto Sans HK', sans-serif;
+	 font-size: 40px;
+	 font-family: 'Yatra One', cursive;
 	 color: #121212;
 	 letter-spacing: -1px;
 	 transition: all .3s ease;
@@ -271,14 +266,16 @@ nav {
 }
 
 #about_p {
-	 font-size: 14px;
-	 font-family: 'Noto Sans HK', sans-serif;
+	 font-size: 16px;
+	 font-family: 'Outfit', sans-serif;
+	 font-weight: 400;
 	 letter-spacing: .5px;
 	 color: #121212;
 	 line-height: 20px;
 }
 #about_p_a {
-	 font-family: 'Noto Sans HK', sans-serif;
+	 font-family: 'Outfit', sans-serif;
+	 font-weight: 400;
 	 color: #CBB06D;
 	 text-decoration: none;
 	 transition: color .3s ease;
@@ -299,8 +296,9 @@ nav {
 	margin: 0 auto;
 }
 #contact_mail{
-	 font-size: 14px;
-	 font-family: 'Poppins', sans-serif;
+	 font-size: 16px;
+	 font-family: 'Outfit', sans-serif;
+	 font-weight: 400;
 	 letter-spacing: .5px;
 	 color: #CBB06D;
 	 text-decoration: none;
@@ -375,15 +373,16 @@ nav {
 
 #form_header {
 	margin: 0 auto 35px auto;
-	font-size: 30px;
-	font-family: 'Noto Sans HK', sans-serif;
+	font-size: 40px;
+	font-family: 'Yatra One', cursive;
 	color: #121212;
 	letter-spacing: -1px;
 }
 
 .form_input {
-	font-family: 'Noto Sans HK', sans-serif;
-	font-size: 14px;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
 	width: 25vw;
 	margin: 10px auto;
 	padding: 10px;
@@ -393,8 +392,9 @@ nav {
 }
 
 #form_message {
-	font-family: 'Noto Sans HK', sans-serif;
-	font-size: 14px;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
 	width: 25vw;
 	max-height: 20vh;
 	margin: 10px auto;
@@ -405,8 +405,9 @@ nav {
 }
 
 #form_btn {
-	font-family: 'Poppins', sans-serif;
-	font-size: 16px;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
 	margin: 10px auto;
 	padding: 10px 20px;
 	border: none;
@@ -439,8 +440,9 @@ nav {
 
 #willow_link, #eightball_link {
 	 margin: 50px auto;
-	 font-size: 17px;
-	 font-family: 'Noto Sans HK', sans-serif;
+	 font-size: 16px;
+	 font-family: 'Outfit', sans-serif;
+	 font-weight: 400;
 	 color: #CBB06D;
 	 text-decoration: none;
 	 transition: color .2s ease;
@@ -471,7 +473,8 @@ nav {
 #letter1_h4 {
 	 margin: 40px auto 20px auto;
 	 font-size: 16px;
-	 font-family: 'Noto Sans HK', sans-serif;
+	 font-family: 'Outfit', sans-serif;
+	 font-weight: 400;
 	 letter-spacing: 2px;
  	 color: #CBB06D;
  	 transition: all .2s ease;
@@ -486,8 +489,9 @@ nav {
 
 #letter1_p {
 	 margin: 0 auto 30px auto;
-	 font-size: 12px;
-	 font-family: 'Noto Sans HK', sans-serif;
+	 font-size: 16px;
+	 font-family: 'Outfit', sans-serif;
+	 font-weight: 400;
 	 letter-spacing: .5px;
  	 color: #121212;
  	 text-align: center;
@@ -498,8 +502,9 @@ nav {
 
 #back_button {
      display: block;
-	 font-family: 'Poppins', sans-serif;
-	 font-size: 20px;
+	 font-family: 'Outfit', sans-serif;
+	 font-weight: 400;
+	 font-size: 16px;
 	 text-align: center;
 	 text-decoration: none;
 	 color: #121212;
@@ -543,7 +548,7 @@ nav {
 #index_footer_h4 {
 	display: block;
 	justify-content: center;
-	font-family: 'Noto Sans HK', sans-serif;
+	font-family: 'Yatra One', cursive;
 	font-size: 20px;
 	letter-spacing: 1px;
 	text-align: center;
@@ -612,7 +617,8 @@ nav {
 	 margin: 0 auto;
 	 background: #080808;
 	 color: #383838;
-	 font-family: 'Poppins', sans-serif;
+	 font-family: 'Outfit', sans-serif;
+	 font-weight: 400;
 	 font-size: 7px;
 	 text-transform: uppercase;
 	 letter-spacing: 2px;
