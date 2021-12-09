@@ -27,11 +27,9 @@ body {
 	 display: flex;
 	 flex-direction: row;
 	 align-items: center;
-	 align-items: middle;
-	 margin: auto;
-	 padding: 10px;
-	 justify-content: space-evenly;
-	 width: 100%;
+	 margin: 10px 0;
+	 justify-content: left;
+	 max-width: 100%;
 	 position: fixed;
 	 top: 0;
 	 left: 0;
@@ -39,31 +37,14 @@ body {
 	 z-index: 99;
 }
 
-.nav_logo{
-	 position: block;
+.nav_logo {
 	 display: flex;
 	 flex-direction: row;
-	 align-items: center;
-}
-
-#nav_rsa {
-	 font-family: 'Yatra One', cursive;
-	 font-size: 25px;
-	 color: #A591C7;
-	 letter-spacing: -1px;
-	 text-decoration: none;
-	 transition: color .2s ease;
-}
-
-#nav_rsa:hover {
-	color: #2B2422;
-	transition: color .2s ease;
-	-webkit-transition: color .2s ease;
-	-moz-transition: color .2s ease;
+	 align-items: left;
+	 margin-left: 90px;
 }
 #nav_logo {
-	max-width: 60px;
-	padding-right: 10px;
+	max-width: 40px;
 }
 
 nav {
@@ -78,6 +59,7 @@ nav {
 	 list-style-type: none;
 	 align-items: center;
 	 position: relative;
+	 margin-left: 50px;
 }
 
 #nav_a {
@@ -87,7 +69,7 @@ nav {
 	 font-size: 13px;
 	 letter-spacing: 1px;
 	 color: #2B2422;
-	 margin: 0 10px;
+	 margin-left: 15px;
 	 transition: color .2s ease;
 }
 
@@ -603,18 +585,20 @@ nav {
 		 flex: 100%;
 		 width: 100%;
 		 height: auto;
+		 margin: auto;
 	}
 
 	.nav_logo {
-		margin: 15px auto;
+		margin-left: 20px;
+		padding: 0;
 	}
-
-	#nav_bunny {
-		max-width: 50px;
+	#nav_logo {
+		margin: 0;
+		padding: 0;
 	}
 
 	#nav_links {
-		 margin: 0 auto;
+		 margin: 0;
 	}
 	 .index_header {
 	 	 display: flex;
@@ -623,20 +607,10 @@ nav {
 	 	 width: 100%;
 	 	 height: auto;
 	 }
-	 #index_h3_span{
-	 	 max-width: 400px;
-	 }
-
 	 #index_h3 {
 	 	width: 100%;
 	 	height: auto;
 	 }
-
-	 #index_logo {
-	     width: 100%;
-	     height: auto;
-	 }
-
 	 .gallery {
 		 display: flex;
 		 flex-wrap: wrap;
