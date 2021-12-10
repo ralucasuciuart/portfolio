@@ -231,8 +231,9 @@ transition: color .2s ease;
 #about_h3 {
 	 margin: 0 auto 25px auto;
 	 font-size: 30px;
-	 font-family: 'Yatra One', cursive;
-	 color: #2B2422;
+	 font-family: 'Outfit', sans-serif;
+	 font-weight: 600;
+	 color: #ff4040;
 	 letter-spacing: -1px;
 	 transition: all .3s ease;
 }
@@ -241,25 +242,25 @@ transition: color .2s ease;
 	 font-family: 'Outfit', sans-serif;
 	 font-weight: 400;
 	 letter-spacing: .5px;
-	 color: #2B2422;
+	 color: #f6f6f6;
 	 line-height: 20px;
 }
 #about_p_a {
 	 font-family: 'Outfit', sans-serif;
 	 font-weight: 400;
-	 color: #A591C7;
+	 color: #f6f6f6;
 	 text-decoration: none;
 	 transition: color .3s ease;
 }
 
 #about_p_a:hover {
 	 background-image:
-  		url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFC1C5' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  		url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff4040' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
      background-position: bottom;
      background-repeat: repeat-x;
      background-size: auto 4px;
      padding-bottom: 10px;
-	 color: #FFC1C5;
+	 color: #ff4040;
 	 transition: color .3s ease;
 	 -webkit-transition: color .3s ease;
 	 -moz-transition: color .3s ease;
@@ -277,18 +278,18 @@ transition: color .2s ease;
 	 font-family: 'Outfit', sans-serif;
 	 font-weight: 400;
 	 letter-spacing: .5px;
-	 color: #A591C7;
+	 color: #f6f6f6;
 	 text-decoration: none;
 }
 
 #contact_mail:hover {
 	background-image:
-  		url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFC1C5' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  		url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff4040' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
      background-position: bottom;
      background-repeat: repeat-x;
      background-size: auto 4px;
      padding-bottom: 10px;
-     color: #FFC1C5;
+     color: #ff4040;
      transition: color .2s ease;
      -webkit-transition: color .2s ease;
      -moz-transition: color .2s ease;
@@ -300,25 +301,25 @@ transition: color .2s ease;
 
 #contact_svg_email {
 	 fill: transparent;
-	 stroke: #A591C7;
+	 stroke: #f6f6f6;
 	 stroke-width: 8;
 	 transition: stroke .2s ease;
 }
 
 #contact_svg_email:hover {
-	stroke: #2B2422;
+	stroke: #ff4040;
 	transition: stroke .2s ease;
 	-webkit-transition: stroke .2s ease;
 	-moz-transition: stroke .2s ease;
 }
 
 #contact_svg_icon {
-	 fill: #A591C7;
+	 fill: #f6f6f6;
 	 transition: fill .2s ease;
 }
 
 #contact_svg_icon:hover {
-	 fill: #2B2422;
+	 fill: #ff4040;
 	 transition: fill .2s ease;
 	 -webkit-transition: fill .2s ease;
 	 -moz-transition: fill .2s ease;
@@ -326,13 +327,13 @@ transition: color .2s ease;
 
 #contact_svg_ig {
 	 fill: transparent;
-	 stroke: #A591C7;
+	 stroke: #f6f6f6;
 	 stroke-width: 8;
 	 transition: stroke .2s ease;
 }
 
 #contact_svg_ig:hover {
-	 stroke: #2B2422;
+	 stroke: #ff4040;
 	 transition: stroke .2s ease;
 	 -webkit-transition: stroke .2s ease;
 	 -moz-transition: stroke .2s ease;
@@ -351,8 +352,9 @@ transition: color .2s ease;
 #form_header {
 	margin: 0 auto 25px auto;
 	font-size: 30px;
-	font-family: 'Yatra One', cursive;
-	color: #2B2422;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 600;
+	color: #ff4040;
 	letter-spacing: -1px;
 }
 
@@ -363,8 +365,8 @@ transition: color .2s ease;
 	width: 25vw;
 	margin: 10px auto;
 	padding: 10px;
-	border: 1px solid #A591C7;
-	color: #A591C7;
+	border: 1px solid #f6f6f6;
+	color: #f6f6f6;
 	background-color: transparent;
 	border-radius: 30px;
 }
@@ -377,29 +379,28 @@ transition: color .2s ease;
 	max-height: 20vh;
 	margin: 10px auto;
 	padding: 10px;
-	border: 1px solid #A591C7;
-	color: #A591C7;
+	border: 1px solid #f6f6f6;
+	color: #f6f6f6;
 	background-color: transparent;
 	border-radius: 3px;
 }
 
 #form_btn {
 	font-family: 'Outfit', sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 20px;
 	margin: 10px auto;
-	padding: 10px 20px;
+	padding: 10px 24px;
 	border: none;
 	border-radius: 30px;
-	background-color: #2B2422;
-	color: #A591C7;
+	background-color: #f6f6f6;
+	color: #0e0e0e;
 	cursor: pointer;
 	transition: all .2s linear;
 }
 
 #form_btn:hover {
-	color: #FFC1C5;
-	background-color: #A591C7;
+	background-color: #ff4040;
 	transition: all .2s linear;
 }
 
