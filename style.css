@@ -26,7 +26,6 @@ body {
 .navigation {
 	 display: flex;
 	 flex-direction: row;
-	 align-items: left;
 	 margin: auto;
 	 padding: 20px 0;
 	 justify-content: left;
@@ -41,7 +40,6 @@ body {
 .nav_logo {
 	 display: flex;
 	 flex-direction: row;
-	 align-items: left;
 	 margin: 0 20px 0 90px;
 }
 #nav_logo {
