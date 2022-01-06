@@ -235,7 +235,7 @@ transition: color .2s ease;
 	 flex-direction: column;
 	 justify-content: space-around;
 	 align-items: flex-start;
-	 margin: 100px auto 40px auto;
+	 margin: 100px auto 100px auto;
 	 text-align: left;
 	 max-width: 500px;
 }
@@ -295,7 +295,7 @@ transition: color .2s ease;
 	 font-family: 'Outfit', sans-serif;
 	 font-weight: 400;
 	 letter-spacing: .5px;
-	 color: #f6f6f6;
+	 color: #ff4040;
 	 text-decoration: none;
 }
 
