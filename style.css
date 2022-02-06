@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 * {
 	 margin: 0;
 	 padding: 0;
@@ -18,7 +18,7 @@ body {
 	 width: 100%;
 	 background-color: #0e0e0e;
 	 overflow: scroll;
-	 font-family: 'Outfit', sans-serif;
+	 font-family: 'Inter', sans-serif;
 }
 
 /* NAVBAR
@@ -63,23 +63,23 @@ nav {
 
 #nav_a {
 	 text-decoration: none;
-	 font-family: 'Outfit', sans-serif;
+	 font-family: 'Inter', sans-serif;
 	 font-weight: 700;
 	 font-size: 13px;
 	 letter-spacing: 1px;
-	 color: #f6f6f6;
+	 color: #dcdcdc;
 	 margin: 0 20px;
 	 transition: color .2s ease;
 }
 
 #nav_a:hover{
      background-image:
-  	     url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff4040' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  	     url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23dcdcdc' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
      background-position: bottom;
      background-repeat: repeat-x;
      background-size: auto 4px;
      padding-bottom: 10px;
-     color: #ff4040;
+     color: #dcdcdc;
      transition: color .2s ease;
      -webkit-transition: color .2s ease;
      -moz-transition: color .2s ease;
@@ -100,35 +100,35 @@ nav {
 	 text-align: left;
 	 margin: 40px 0 20px 90px;
 	 font-size: 36px;
-	 font-family: 'Outfit', sans-serif;
-	 font-weight: 600;
-	 color: #f6f6f6;
+	 font-family: 'Inter', sans-serif;
+	 font-weight: 700;
+	 color: #dcdcdc;
 	 letter-spacing: -1px;
 	 width: 50%;
 }
 
 #index_h4 {
 	margin: 0 0 80px 90px;
-	font-family: 'Outfit', sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
-	color: #f6f6f6;
+	color: #dcdcdc;
 	width: 50%;
 }
 
 .index_link {
 	text-decoration: none;
-	color: #f6f6f6;
+	color: #dcdcdc;
 	transition: color .2s ease;
 }
 .index_link:hover {
 	background-image:
-	url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff4040' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+	url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23dcdcdc' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
 background-position: bottom;
 background-repeat: repeat-x;
 background-size: auto 4px;
 padding-bottom: 10px;
-color: #ff4040;
+color: #dcdcdc;
 transition: color .2s ease;
 -webkit-transition: color .2s ease;
 -moz-transition: color .2s ease;
@@ -136,12 +136,12 @@ transition: color .2s ease;
 
 #index_email {
 	text-decoration: none;
-	color: #ff4040;
+	color: #dcdcdc;
 	transition: all .2s ease;
 }
 #index_email:hover {
 	background-image:
-	url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff4040' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+	url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23dcdcdc' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
 background-position: bottom;
 background-repeat: repeat-x;
 background-size: auto 4px;
@@ -188,22 +188,22 @@ transition: color .2s ease;
 	 justify-content: space-around;
 	 align-items: flex-start;
 	 margin-top: 16px;
-	 color: #f6f6f6;
+	 color: #dcdcdc;
 	 letter-spacing: .5px;
 	 text-decoration: none;
-	 font-family: 'Outfit', sans-serif;
+	 font-family: 'Inter', sans-serif;
 	 font-weight: 400;
 	 transition: color .2s ease;
 }
 
 #gallery_caption:hover {
      background-image:
-  		url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff4040' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  		url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23dcdcdc' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
      background-position: bottom;
      background-repeat: repeat-x;
      background-size: auto 4px;
      padding-bottom: 10px;
-     color: #ff4040;
+     color: #dcdcdc;
      transition: color .2s ease;
      -webkit-transition: color .2s ease;
      -moz-transition: color .2s ease;
@@ -247,36 +247,36 @@ transition: color .2s ease;
 #about_h3 {
 	 margin: 0 auto 25px auto;
 	 font-size: 30px;
-	 font-family: 'Outfit', sans-serif;
-	 font-weight: 600;
-	 color: #ff4040;
+	 font-family: 'Inter', sans-serif;
+	 font-weight: 700;
+	 color: #dcdcdc;
 	 letter-spacing: -1px;
 	 transition: all .3s ease;
 }
 #about_p {
 	 font-size: 16px;
-	 font-family: 'Outfit', sans-serif;
+	 font-family: 'Inter', sans-serif;
 	 font-weight: 400;
 	 letter-spacing: .5px;
-	 color: #f6f6f6;
+	 color: #dcdcdc;
 	 line-height: 20px;
 }
 #about_p_a {
-	 font-family: 'Outfit', sans-serif;
+	 font-family: 'Inter', sans-serif;
 	 font-weight: 400;
-	 color: #f6f6f6;
+	 color: #dcdcdc;
 	 text-decoration: none;
 	 transition: color .3s ease;
 }
 
 #about_p_a:hover {
 	 background-image:
-  		url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff4040' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  		url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23dcdcdc' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
      background-position: bottom;
      background-repeat: repeat-x;
      background-size: auto 4px;
      padding-bottom: 10px;
-	 color: #ff4040;
+	 color: #dcdcdc;
 	 transition: color .3s ease;
 	 -webkit-transition: color .3s ease;
 	 -moz-transition: color .3s ease;
@@ -292,21 +292,21 @@ transition: color .2s ease;
 
 #contact_mail {
 	 font-size: 16px;
-	 font-family: 'Outfit', sans-serif;
+	 font-family: 'Inter', sans-serif;
 	 font-weight: 400;
 	 letter-spacing: .5px;
-	 color: #ff4040;
+	 color: #dcdcdc;
 	 text-decoration: none;
 }
 
 #contact_mail:hover {
 	background-image:
-  		url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff4040' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  		url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23dcdcdc' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
      background-position: bottom;
      background-repeat: repeat-x;
      background-size: auto 4px;
      padding-bottom: 10px;
-     color: #ff4040;
+     color: #dcdcdc;
      transition: color .2s ease;
      -webkit-transition: color .2s ease;
      -moz-transition: color .2s ease;
@@ -318,25 +318,25 @@ transition: color .2s ease;
 
 #contact_svg_email {
 	 fill: transparent;
-	 stroke: #f6f6f6;
+	 stroke: #dcdcdc;
 	 stroke-width: 8;
 	 transition: stroke .2s ease;
 }
 
 #contact_svg_email:hover {
-	stroke: #ff4040;
+	stroke: #dcdcdc;
 	transition: stroke .2s ease;
 	-webkit-transition: stroke .2s ease;
 	-moz-transition: stroke .2s ease;
 }
 
 #contact_svg_icon {
-	 fill: #f6f6f6;
+	 fill: #dcdcdc;
 	 transition: fill .2s ease;
 }
 
 #contact_svg_icon:hover {
-	 fill: #ff4040;
+	 fill: #dcdcdc;
 	 transition: fill .2s ease;
 	 -webkit-transition: fill .2s ease;
 	 -moz-transition: fill .2s ease;
@@ -344,13 +344,13 @@ transition: color .2s ease;
 
 #contact_svg_ig {
 	 fill: transparent;
-	 stroke: #f6f6f6;
+	 stroke: #dcdcdc;
 	 stroke-width: 8;
 	 transition: stroke .2s ease;
 }
 
 #contact_svg_ig:hover {
-	 stroke: #ff4040;
+	 stroke: #dcdcdc;
 	 transition: stroke .2s ease;
 	 -webkit-transition: stroke .2s ease;
 	 -moz-transition: stroke .2s ease;
@@ -370,14 +370,14 @@ transition: color .2s ease;
 #form_header {
 	margin: 0 auto 25px auto;
 	font-size: 30px;
-	font-family: 'Outfit', sans-serif;
-	font-weight: 600;
-	color: #f6f6f6;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	color: #dcdcdc;
 	letter-spacing: -1px;
 }
 
 .form_input {
-	font-family: 'Outfit', sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	width: 100%;
@@ -385,12 +385,12 @@ transition: color .2s ease;
 	padding: 10px 15px;
 	border: none;
 	color: #0e0e0e;
-	background-color: #f6f6f6;
+	background-color: #dcdcdc;
 	border-radius: 10px;
 }
 
 #form_message {
-	font-family: 'Outfit', sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	width: 100%;
@@ -399,19 +399,19 @@ transition: color .2s ease;
 	padding: 15px;
 	border: none;
 	color: #0e0e0e;
-	background-color: #f6f6f6;
+	background-color: #dcdcdc;
 	border-radius: 10px;
 }
 
 #form_btn {
-	font-family: 'Outfit', sans-serif;
-	font-weight: 600;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
 	font-size: 20px;
 	margin: 30px auto 0 auto;
 	padding: 10px 24px;
 	border: none;
 	border-radius: 30px;
-	background-color: #ff4040;
+	background-color: #dcdcdc;
 	color: #0e0e0e;
 	cursor: pointer;
 	transition: all .2s linear;
@@ -437,18 +437,18 @@ transition: color .2s ease;
 	text-align: left;
 	margin: 0 auto 20px auto;
 	font-size: 36px;
-	font-family: 'Outfit', sans-serif;
-	font-weight: 600;
-	color: #ff4040;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	color: #dcdcdc;
 	letter-spacing: -1px;
 }
 
 #content_subtitle {
    margin: 0 auto 90px auto;
-   font-family: 'Outfit', sans-serif;
+   font-family: 'Inter', sans-serif;
    font-weight: 400;
    font-size: 16px;
-   color: #f6f6f6;
+   color: #dcdcdc;
 }
 .content_gallery {
 	 display: flex;
@@ -465,21 +465,21 @@ transition: color .2s ease;
 #willow_link, #eightball_link {
 	 margin: 50px auto;
 	 font-size: 16px;
-	 font-family: 'Outfit', sans-serif;
+	 font-family: 'Inter', sans-serif;
 	 font-weight: 400;
-	 color: #f6f6f6;
+	 color: #dcdcdc;
 	 text-decoration: none;
 	 transition: color .2s ease;
 }
 
 #willow_link:hover, #eightball_link:hover {
 	 background-image:
-  		url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff4040' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  		url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .4s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23dcdcdc' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
      background-position: bottom;
      background-repeat: repeat-x;
      background-size: auto 4px;
      padding-bottom: 10px;
-	 color: #ff4040;
+	 color: #dcdcdc;
 	 transition: color .2s ease;
 }
 
@@ -498,20 +498,20 @@ transition: color .2s ease;
 #letter1_h4 {
 	 margin: 40px auto 20px auto;
 	 font-size: 16px;
-	 font-family: 'Outfit', sans-serif;
+	 font-family: 'Inter', sans-serif;
 	 font-weight: 400;
 	 letter-spacing: 2px;
- 	 color: #ff4040;
+ 	 color: #dcdcdc;
  	 transition: all .2s ease;
 }
 
 #letter1_p {
 	 margin: 0 auto 30px auto;
 	 font-size: 16px;
-	 font-family: 'Outfit', sans-serif;
+	 font-family: 'Inter', sans-serif;
 	 font-weight: 400;
 	 letter-spacing: .5px;
- 	 color: #f6f6f6;
+ 	 color: #dcdcdc;
  	 text-align: center;
 }
 
@@ -520,20 +520,20 @@ transition: color .2s ease;
 
 #back_button {
      display: block;
-	 font-family: 'Outfit', sans-serif;
+	 font-family: 'Inter', sans-serif;
 	 font-weight: 400;
 	 font-size: 16px;
 	 text-align: center;
 	 text-decoration: none;
-	 color: #f6f6f6;
-	 color: #f6f6f656;
+	 color: #dcdcdc;
+	 color: #dcdcdc56;
 	 margin: 70px auto 250px auto;
 	 width: 50%;
 	 transition: color .2s ease;
 }
 
 #back_button:hover {
-	color: #ff4040;
+	color: #dcdcdc;
 	transition: color .2s ease;
 	-webkit-transition: color .2s ease;
 	-moz-transition: color .2s ease;
@@ -548,18 +548,17 @@ transition: color .2s ease;
 	bottom: 10px;
 	right: 10px;
 	z-index: 98;
-	outline: none;
 	cursor: pointer;
-	padding: 4px 12px 8px 12px;
-	border: none;
+	padding: 15px;
 	max-width: 65px;
-	opacity: .5;
-	transition: opacity .2s ease;
+	transition: transform .3s ease-in-out;
 }
 
 #top_btn:hover {
-	opacity: 1;
-	transition: opacity .2s ease;
+	transform: translate(0, -10px);
+	transition: transform .3s ease-in-out;
+	-webkit-transition: transform .3s ease-in-out;
+	-moz-transition: transform .3s ease-in-out;
 }
 
 /* FOOTER
@@ -567,12 +566,12 @@ transition: color .2s ease;
 #index_footer_h4 {
 	display: block;
 	justify-content: center;
-	font-family: 'Outfit', sans-serif;
+	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	letter-spacing: 1px;
 	text-align: center;
-	color: #ff4040;
+	color: #dcdcdc;
 	margin: 150px auto 0 auto;
 	padding-top: 30px;
 	background-color: #050505;
@@ -596,37 +595,37 @@ transition: color .2s ease;
 
 #footer_svg_email {
 	 fill: transparent;
-	 stroke: #f6f6f6;
+	 stroke: #dcdcdc;
 	 stroke-width: 8;
-	 transition: stroke .2s ease;
+	 transition: transform .3s ease-in-out;
 }
 #footer_svg_email:hover {
-	stroke: #ff4040;
-	transition: stroke .2s ease;
-	-webkit-transition: stroke .2s ease;
-	-moz-transition: stroke .2s ease;
+	transform: translate(0, -10px);
+	transition: transform .3s ease-in-out;
+	-webkit-transition: transform .3s ease-in-out;
+	-moz-transition: transform .3s ease-in-out;
 }
 
 #footer_svg_be {
-	 fill: #f6f6f6;
-	 transition: fill .2s ease;
+	 fill: #dcdcdc;
+	 transition: transform .3s ease-in-out;
 }
 #footer_svg_be:hover {
-	 fill: #ff4040;
-	 transition: fill .2s ease;
-	 -webkit-transition: fill .2s ease;
-	 -moz-transition: fill .2s ease;
+	transform: translate(0, -10px);
+	transition: transform .3s ease-in-out;
+	-webkit-transition: transform .3s ease-in-out;
+	-moz-transition: transform .3s ease-in-out;
 }
 
 #footer_svg_git {
-	fill: #f6f6f6;
-	transition: fill .2s ease;
+	fill: #dcdcdc;
+	transition: transform .3s ease-in-out;
 }
 #footer_svg_git:hover {
-	fill: #ff4040;
-	transition: fill .2s ease;
-	-webkit-transition: fill .2s ease;
-	-moz-transition: fill .2s ease;
+	transform: translate(0, -10px);
+	transition: transform .3s ease-in-out;
+	-webkit-transition: transform .3s ease-in-out;
+	-moz-transition: transform .3s ease-in-out;
 }
 #copyright {
 	 display: flex;
@@ -639,7 +638,7 @@ transition: color .2s ease;
 	 margin: 0 auto;
 	 background: #050505;
 	 color: #202020;
-	 font-family: 'Outfit', sans-serif;
+	 font-family: 'Inter', sans-serif;
 	 font-weight: 400;
 	 font-size: 10px;
 	 letter-spacing: 1px;
